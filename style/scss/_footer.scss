@@ -1,0 +1,85 @@
+.footer {
+  padding: 40px 0;
+  background: #153e84;
+  color: #fff;
+}
+.footer__coll {
+  display: flex;
+  flex-direction: column;
+}
+.footer__button-call {
+  text-transform: uppercase;
+  color: #db2138;
+  font-size: 14px;
+  width: fit-content;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer__phone {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.footer__email {
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__title-min {
+  text-transform: uppercase;
+  font-size: 18px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 10px 0 10px 30px;
+}
+.footer__title-min--adress {
+  background-image: url("../images/map-mark.png");
+}
+.footer__title-min--clock {
+  background-image: url("../images/clock.png");
+}
+.footer__btn {
+  height: 41px;
+  width: 203px;
+  background-color: #fe9e02;
+  color: #3c3c3c;
+  font-size: 15px;
+  padding: 10px 10px 10px;
+  text-transform: uppercase;
+}
+.footer__description {
+  max-width: 200px;
+}
+.footer__adress {
+  margin-bottom: 10px;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+}
+.social-list__item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-list__item {
+  width: 24px;
+  height: 24px;
+}
+.social-list__item a {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.privacy-policy {
+  padding: 20px 0;
+  &__wrapper {
+    padding-top: 10px;
+    border-top: 1px solid #e0e0e0;
+  }
+}

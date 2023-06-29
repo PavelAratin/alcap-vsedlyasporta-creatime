@@ -1,0 +1,79 @@
+.header {
+  margin-bottom: 32px;
+  &__top {
+    background-color: #f2f2f2;
+    padding: 12px 0;
+  }
+}
+.header__location {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navigation__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.backcall__phone {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.header__middle {
+  padding: 12px 0;
+}
+.social-list {
+  width: 70px;
+}
+.nav-info {
+  width: 200px;
+}
+.nav-info__link {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.actions-list__item:not(:last-child) {
+  margin-right: 32px;
+}
+.actions-list__item {
+  align-items: center;
+  font-size: 14px;
+}
+.actions-list__item svg {
+  margin-bottom: 5px;
+}
+.actions-list__svg-wrapper {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.actions-list__svg-wrapper::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  display: block;
+  background-color: #ffb745;
+  border-radius: 100%;
+}
+
+.form {
+  margin-right: 50px;
+  flex-grow: 2;
+}
+.form__btn {
+  color: #ffffff;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form__input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #4174cb;
+  padding: 11px 16px;
+  width: 100%;
+}
